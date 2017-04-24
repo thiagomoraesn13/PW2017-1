@@ -1,34 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
   <meta charset="utf-8">
-  <style type="text/css">
-  table{
-    border-style: solid;
-    margin-left: 10px;
-    float: left;
-}
-  </style>
-
-  <script type="text/javascript">
-  function multiplicacao(){
-
-    for (var i = 1; i <= 10; i++) {
-    document.write("<table border='1' align='left' >");
-
-    document.write("<tr><td colspan=2>" +"Produto de "+ i + "</td></tr>");
-
-    for (var j = 1; j <=10; j++) {
-       document.write("<tr><td> " + i+"x"+j +" </td>");
-       document.write("<td> " + i*j +" </td></tr>");
-    }
-
-    document.write("</table>");
-  }
-}
-  </script>
+      for (var i = 1; i <= 10; i++) {
+          var Tabela = "<table border=1 style='float:left; margin:10px'>";
+          Tabela += "<tr> <th colspan = 2> Produtos de " + i + "</th> </tr>";
+          for(var j = 1; j <= 10; j++) {
+              Tabela += "<tr align='center'> <td> " + i + "x" + j + "</td> <td>" + i*j + "</td> </tr>";
+          }
+          Tabela += "</table>";
+          document.write(Tabela);
+      }
+    </script>
 </head>
-<body onload="multiplicacao()">
+<body>
 
 </body>
 </html>
