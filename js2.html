@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <form name = "myForm">
+    Informe o raio   <input id = "raio" name = "raio" type ="text" value= "">
+    <input type="button" id="botao-ok" value="Ok"> <br />
+    Área do circulo<input  id = "circulo" name = "circulo"  onclick="mostrarValor()" type ="text" value= ""> <br />
+    Circunferência <input id = "circunferencia" name = "circunferencia"  onclick="mostra()"  type ="text" value= ""> <br />
+
+  </form>
+
+  <script>
+  ///circun 2piraio
+  ///area pi raio*raio
+
+  function mostrarValor() {
+  document.getElementById("circulo").value = 2*3.14*document.getElementById("raio").value;
+  document.getElementById("circunferencia").value = (3.14)*(document.getElementById("raio").value)*(document.getElementById("raio").value);
+}
+  document.getElementById("botao-ok").onclick = function(e) {
+    mostrarValor();
+    e.preventDefault();
+  }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
