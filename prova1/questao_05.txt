@@ -1,8 +1,0 @@
-
-Histórico
-
-
-
-a) working directory -> É um unico checkout do seu projeto. Geralmente fica em disco para você fazer modificações. 
-
-B) diretório local é o diretório que está na sua máquina e repositório é remoto é o diretório que fica no serviddor do git (github) e você pode acessá-lo de qualquer máquina desde que tenha internet e acesso ao repositório (usuario e senha).
