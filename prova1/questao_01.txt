@@ -1,0 +1,15 @@
+questao 1)
+
+Primeiro erro: a forma de comentar correta seria <!-- Isto é um comentário --> e não como /* Isto é comentario// linha 4
+
+Segundo erro: <h1> deveria está dentro do <body> </body> //linha 14
+
+Terceiro erro: a tag p (paragrafo) deveria está dentro do <body> </body> //linha 15
+
+quarto erro: Style está com sintaxe incorreta
+ a forma correta seria:
+ p#para{
+ 	background-color: blue;
+ }
+
+Coloquei os erros da forma que fui identificando, considerei a falta do body é citada nos erros 2 e 3

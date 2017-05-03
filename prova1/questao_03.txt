@@ -1,0 +1,6 @@
+
+Primeiro seletor: span
+
+Segundo seletor:  podemos usar o title=css, não lembro direito  a sintaxe
+
+Terceiro seletor: .c11, css {}

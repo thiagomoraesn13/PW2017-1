@@ -1,0 +1,3 @@
+Closure é quando você tem uma função declarada dentro de outra função. E essa função interna referencia as variaveis locais declarada dentro da função externa.
+
+var moo é uma referencia para foo, então assim podemos chamar a funcao moo dentro da funcao principal.
