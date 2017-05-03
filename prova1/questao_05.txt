@@ -1,0 +1,34 @@
+
+Histórico
+
+
+Author: thiagomoraesn13 <tmr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:07:48 2017 -0400
+
+    quarta questao
+
+commit 1dc18439fcd32dd8b7e061d6f5ed7663374e998e
+Author: thiagomoraesn13 <tmr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:07:06 2017 -0400
+
+    terceira questao
+
+commit 07452b89f9c473c417e5a591c47a97c933bc577b
+Author: thiagomoraesn13 <tmr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:05:36 2017 -0400
+
+    segunda questao
+
+commit 79ae634d21ed2cb9139e0d447d9d279bfdb04f63
+Author: thiagomoraesn13 <tmr@icomp.ufam.edu.br>
+Date:   Wed May 3 09:00:44 2017 -0400
+
+    primeira questao
+:
+
+
+
+
+a) working directory -> É um unico checkout do seu projeto. É uma base de dados comprimida do diretório git. Geralmente fica em disco para você fazer modificações. 
+
+B) diretório local é o diretório que está na sua máquina e repositório é remoto é o diretório que fica no servidor (github) e você pode acessá-lo de qualquer máquina desde que tenha internet e acesso ao repositório (usuario e senha).
