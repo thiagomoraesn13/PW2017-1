@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> JS3 </title>
+</head>
+<body>
+  <h1>Um grafico de barras usando imagens</h1>
+  <form name=form1>
+    <label>Informe a altura das barras:</label>
+    <input type="text" name="campo1" size=8>
+    <input type="text" name="campo2" size=8>
+    <input type="text" name="campo3" size=8>
+    <input type="text" name=campo4 size=8>
+    <input type="text" name="campo5" size=8>
+    <br>
+  </form>
+  <form name=form2>
+    <br>
+    <label>Informe a largura das barras (em pixels):</label>
+    <input type="text" name="campo6" size=8>
+    <br>
+  </form>
+  <input type="button" id="botao-ok" value="Desenha o gráfico" onclick="ativar()">
+  <br>
+  <img id="gif1" src="url.gif" width="50" height="50">
+  <img id="gif2" src="url.gif"  width="50" height="40">
+  <img id="gif3" src="url.gif"  width="50" height="60">
+  <img id="gif4" src="url.gif"  width="50" height="48">
+  <img id="gif5" src="url.gif"  width="50" height="20">
+  <script>
+  function ativar() {
+    var campo1 = document.form1.campo1.value;
+    document.getElementById("gif1").height = campo1;
+    var campo2 = document.form1.campo2.value;
+    document.getElementById("gif2").height = campo2;
+    var campo3 = document.form1.campo3.value;
+    document.getElementById("gif3").height = campo3;
+    var campo4 = document.form1.campo4.value;
+    document.getElementById("gif4").height = campo4;
+    var campo5 = document.form1.campo5.value;
+    document.getElementById("gif5").height = campo5;
+    var campo6 = document.form2.campo6.value;
+    document.getElementById("gif1").width = campo6;
+    document.getElementById("gif2").width = campo6;
+    document.getElementById("gif3").width = campo6;
+    document.getElementById("gif4").width = campo6;
+    document.getElementById("gif5").width = campo6;
+  }
+  document.getElementById("botao-ok").onclick = function(e) {
+    ativar();
+    e.preventDefault();
+  }
+  </script>
+</body>
+</html>
