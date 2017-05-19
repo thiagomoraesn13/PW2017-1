@@ -1,3 +1,6 @@
 Closure é quando você tem uma função declarada dentro de outra função. E essa função interna referencia as variaveis locais declarada dentro da função externa.
 
 var moo é uma referência para foo, então assim através do moo podemos chamar a funcao foo dentro da funcao principal.
+
+Nota: 1.5
+Descrição de closure e de funcionamento do código parcialmente corretos.

@@ -1,3 +1,6 @@
 seletor: span
 seletor: p#span.c11 (nao lembro a sintaxe correta)
 seletor: p#css
+
+Nota: 0.0
+Nenhum dos seletores está correto.

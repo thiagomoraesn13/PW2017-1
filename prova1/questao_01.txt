@@ -13,3 +13,6 @@ quarto erro: Style está com sintaxe incorreta
  }
 
 Coloquei os erros da forma que fui identificando, considerei a falta do body é citada nos erros 2 e 3
+
+Nota: 1.5
+Apenas 3 foram reportados corretamente.
