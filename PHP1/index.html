@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário de Contato</title>
+</head>
+<body>
+<h1>Formulário de Contato</h1>
+<p>Por favor, preencha o formulário abaixo e clique no botão Enviar Mensagem. Agradecemos por seu contato.</p>
+<div id="formulario">
+	<form id="php" method="POST" action="php1.php">
+		<fieldset>
+			<legend>Dados Básicos</legend>
+			Nome: <input type="text" name="nome" id="nome"/><br>
+ 			E-mail: <input type="email" name="email" id="email"/ placeholder="seunome@dominio.com.br"><br>
+ 			Website: <input type="url" name="website" id="website" placeholder="http://" />
+		</fieldset>
+		<fieldset>
+			<legend>Digite sua mensagem</legend>
+			<textarea name="mensagem" rows="4" cols="50">Este é o valor padrão!</textarea>
+		</fieldset>
+		<input type="reset" value="Resetar Dados" />
+ 		<input type="submit" name="submit" value="Enviar Mensagem" />
+	</form>
+</div>
+
+</body>
+</html>

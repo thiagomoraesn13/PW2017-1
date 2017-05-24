@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Instituto de Computação
+	</title>
+</head>
+<body>
+	<h1>Formulário de Contato</h1>
+	<p>Por favor, preencha o formulário abaixo e clique no botão Enviar Mensagem. Agradecemos por seu contato.</p>
+
+	<form id="contact" method="GET" action="">
+		<fieldset>
+			<legend>Dados Básicos</legend>
+
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome"><br>
+			
+			<label for="email">E-mail: </label>
+			<input type="email" name="email" required="Preencha please" placeholder="seunome@dominio.com.br"><br>
+
+			<label for="Website">Website:</label>
+			<input type="text" name="website">
+		</fieldset>
+		<fieldset>
+			<legend>Digite sua mensagem</legend>
+			<textarea name="mensagem" rows="4" cols="50">Digite sua mensagem aqui</textarea>
+		</fieldset>
+
+		<input type="reset" value="Resetar Dados">
+		<input type="submit" value="Enviar Dados" name="submit">
+	</form>
+	
+</body>
+</html>
