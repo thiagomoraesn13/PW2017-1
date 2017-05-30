@@ -10,7 +10,7 @@
 	$usuario = "root";
 	$senha = "root";
 	try{
-		$conn = new PDO("mysql:host=localhost;dbname=Snake", $usuario, $senha);
+		$conn = new PDO("mysql:host=localhost;dbname=banco", $usuario, $senha);
 		$conn->exec("set names utf8");
 		$stmt = $conn->prepare("INSERT INTO mensagem (nome, email, website, mensagem) VALUES (:nome, :email, :website, :mensagem)");
 		$stmt->bindValue(':nome', $_POST['nome']);
