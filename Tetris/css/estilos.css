@@ -1,0 +1,18 @@
+td { 
+   
+    height: 1px;
+    width: auto;
+    padding: 10px;
+
+}
+
+
+
+
+
+#tabuleiro tr:nth-child(n) td:nth-child(n) {
+	
+
+    background-color: gray;	/*Change to white.*/
+
+}
