@@ -85,8 +85,8 @@
 
   function desenhar_Tabela(matriz, offset) { //desenha a matriz com as pecas
     matriz.forEach(function(row, y) {
-      row.forEach(function(ptype, x) {
-        if (ptype !== 0) {
+      row.forEach(function(type, x) {
+        if (type !== 0) {
           Tabela.rows[y + offset.y].cells[x + offset.x].style.backgroundColor = cor ;
         } else {
           Tabela.rows[y].cells[x].style.backgroundColor = "";
