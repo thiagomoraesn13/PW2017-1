@@ -1,0 +1,53 @@
+
+table {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 40px;
+}
+
+table2 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+
+}
+
+#tabuleiro div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+
+table tfoot td {
+    background-color: "black";
+    height: 100px;
+    text-align: right;
+}
+
+div.proxima_table {
+  width:200px;
+  height:300px;
+  margin: 50px
+
+}
+
+td {
+    border: 1px solid black;
+    height: 1px;
+    width: 1px;
+    padding: 10px;
+
+}
+
+td2 {
+    border: 1px solid black;
+    height: 1px;
+    width: 1px;
+    padding: 10px;
+
+}
