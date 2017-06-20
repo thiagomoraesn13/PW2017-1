@@ -137,9 +137,8 @@ class SiteController extends Controller
      * @return mixed
      */
     public function actionAbout()
-    {		
-	 $data ="Dia e hora atual: " . date("Y-m-d H:i:s"); 
-	 return $this->render('about', ['data'=>$data]);
+    {
+        return $this->render('about');
     }
 
     /**
@@ -154,6 +153,8 @@ class SiteController extends Controller
             if ($user = $model->signup()) {
                 if (Yii::$app->getUser()->login($user)) {
                     return $this->goHome();
+$icomp = "Instituto de Computação (ICOMP)"
+        return $this->render('about', ['icomp'=>$icomp]);
                 }
             }
         }
