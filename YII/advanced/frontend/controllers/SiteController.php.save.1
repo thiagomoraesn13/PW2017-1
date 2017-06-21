@@ -137,8 +137,9 @@ class SiteController extends Controller
      * @return mixed
      */
     public function actionAbout()
-    {
-        return $this->render('about');
+    {		
+	 $data = date("Y-m-d H:i:s"); 
+	 return$this->render('about', [data'=>$data]);
     }
 
     /**
