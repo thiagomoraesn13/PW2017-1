@@ -28,7 +28,8 @@ class Jogada extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['int', 'id_user', 'pontuacao', 'data_hora'], 'required'],
+            [['int', 'id_user', 'pontuacao', 'data_hora'], 'required'
+		'message'=>'Este campo é obrigatório'],
             [['int', 'id_user', 'pontuacao'], 'integer'],
             [['data_hora'], 'string', 'max' => 45],
         ];

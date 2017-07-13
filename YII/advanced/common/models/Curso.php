@@ -28,7 +28,8 @@ class Curso extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'nome', 'sigla', 'descricao'], 'required'],
+            [['id', 'nome', 'sigla', 'descricao'], 'required',
+	    'message'=>'Este campo é obrigatório'],
             [['id'], 'integer'],
             [['descricao'], 'string'],
             [['nome'], 'string', 'max' => 45],
@@ -45,7 +46,7 @@ class Curso extends \yii\db\ActiveRecord
             'id' => 'ID',
             'nome' => 'Nome',
             'sigla' => 'Sigla',
-            'descricao' => 'Descricao',
+            'descricao' => 'Descrição',
         ];
     }
 }
